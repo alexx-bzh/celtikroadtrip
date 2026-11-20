@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    }
+
+.banniere {
+    flex: 2;
+    max-width: 75%;
+}    
+
+.banniere img {
+    display: block;    
+    /*height: 225px;*/
+    border-radius: 20px;
+    width: 100%;
+    max-height: 225px;
+    height: auto;
+    object-fit: cover;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    justify-content: center;
+    width: min-content 100px;
+
+
+}
+
+h2 {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Lorsque la fenêtre fait moins de 768px de large */
+@media (max-width: 668px) {
+  header {
+    flex-direction: column; /* Empile l'image au-dessus du texte */
+    align-items: center;
+  }
+
+  .banniere {
+    max-width: 100%; /* L'image reprend toute la largeur disponible */
+    width: 100%;
+    margin-bottom: 20px; /* Ajoute un espace entre l'image et le titre */
+  }
+
+  .right {
+    padding: 0 15px; /* Réduit les marges latérales pour laisser de la place */
+    width: 100%;
+  }
+
+  h2 {
+    white-space: normal; /* Autorise le titre à revenir à la ligne si l'écran est très étroit */
+  }
+}

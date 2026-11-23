@@ -57,9 +57,8 @@ header{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-    /*align-items: flex-start;*/
     gap: 52px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .carte {
@@ -76,8 +75,8 @@ header{
 .middle {
     background-color: rgb(63, 63, 63);
     padding: 20px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
@@ -85,16 +84,139 @@ header{
     word-spacing: 0.50rem;
 }
 
+.containerlinks {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.cartelink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.linkimage img {
+    max-width: 250px;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    /*gap: 52px;*/
+    /*margin-top: 40px;*/
+}
 
+.linktitle a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    max-width: 250px;
+}
 
+.linktitle {
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
+.linktext {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    text-align: center;
+}
 
+.facebook {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    word-spacing: 0.50rem;
+    
+}
 
+.facebook a {
+    border: #1877F2 solid 2px;
+    border-radius: 10px;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: #1877F2;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
+.bottombox {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding: 30px;
+    
+}
 
+.columnone img {
+    max-width: 150px;
+    display: flex;
+}
+
+.columnone {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.columntwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.columntwo a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+.columnthree {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.columnthree a {
+    text-decoration: none;
+    color: antiquewhite; 
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    gap: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: antiquewhite;
+}
 
 
 

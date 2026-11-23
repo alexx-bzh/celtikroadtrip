@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Patrick Hand', cursive; /* Écriture manuscrite nette et très lisible */
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.banniere {
+    flex: 2.3;
+    max-width: 65%;
+}    
+
+.banniere img {
+    display:flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+   
+}
+
+.titre {
+    font-family: 'Permanent Marker', cursive; /* Style marqueur dynamique pour le titre */
+    font-size: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.textheader {
+    max-width: 300px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+
+
+
+.back {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    word-spacing: 0.50rem;
+    margin-right: 30px;
+    
+}
+
+.back a {
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottombox {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding: 30px;
+    
+}
+
+.columnone img {
+    max-width: 150px;
+    display: flex;
+}
+
+.columnone {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.columntwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.columntwo a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+.columnthree {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.columnthree a {
+    text-decoration: none;
+    color: antiquewhite; 
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    gap: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.creation {
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+    font-family: 'Permanent Marker', cursive; /* Style marqueur dynamique pour le titre */
+    font-size: 30px;
+    border: 3px solid rgb(233, 42, 42);
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: rgb(233, 42, 42);
+
+}
+
+
+
+
+
+
+
+
+/* Lorsque la fenêtre fait moins de 668px de large */
+@media (max-width: 668px) {
+  header {
+    flex-direction: column; /* Empile l'image au-dessus du texte */
+    align-items: center;
+  }
+
+  .banniere {
+    max-width: 100%; /* L'image reprend toute la largeur disponible */
+    width: 100%;
+    margin-bottom: 20px; /* Ajoute un espace entre l'image et le titre */
+  }
+
+  .right {
+    padding: 0 15px; /* Réduit les marges latérales pour laisser de la place */
+    width: 100%;
+  }
+
+  .titre {
+    white-space: normal; /* Autorise le titre à revenir à la ligne si l'écran est très étroit */
+  }
+}

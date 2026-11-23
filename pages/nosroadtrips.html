@@ -1,19 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Nos Road Trips</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos Road Trips</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylepages.css"
 </head>
-<body>
-  <img src="../images/logolongcrt.png" alt="" width="1000">
-    <h1>Nos Road Trips</h1>
+
+<body id="haut">
+ <header>
+        <div class="banniere"><img src="../images/logolongcrt.png" alt="Image de presentation du site celtik road trip avec slogan une bretagne mille horizons "class="imageheader"></div>
+        <div class="right">
+            <div class="titre"> Nos Road Trip</div>
+            <p class="textheader"><em>Envie de liberté sur deux roues ? Retrouvez ici l'ensemble de nos aventures. Choisissez votre destination ci-dessous pour découvrir nos escapades !</em></p>
+        </div>
+    </header>
+ 
+ <div class="creation"> PAGE EN COUR DE CREATION</div>
+
+
+
+
+
   <ul>
     <li>Auvergne 2025.</li>
     <li>Bretagne du Sud au Nord en 3 jours.</li>
   </ul>  
 
 
-<a href="../index.html">Retour page d'accueil <img src="../images/logocrt.png" alt="" width="150"></a>
+<div class="back"><a href="../index.html">Retour page d'accueil <img src="../images/logocrt.png" alt="" width="150"></a></div>
+
+
+<div class="bottombox">
+
+    <div class="columnone"> 
+        <div><img src="../images/logocrt.png" alt="logo de notre groupe"></div>
+        <div class="slogan">Une Bretagne - Mille Horizon</div>
+        <div class="noustext">Une bande de potes, des motos, des voyages et les plus beaux virages.</div>
+    </div>
+
+    <div class="columntwo">
+        <a href="../pages/nosroadtrips.html">Nos road trip</a>
+        <a href="../pages/nosplusbellesphotos.html">Nos plus belles photos</a>
+        <a href="../pages/nosmomentsvoyages.html">Nos meilleurs moments de voyages</a>
+        <a href="../pages/nospartenaires.html">Nos partenaires</a>
+        <a href="#haut">Retour en haut de page</a>
+    </div>
+
+    <div class="columnthree">
+        <a href="https://www.facebook.com/people/Celtik-Road-Trip/61595840954350/" target="_blank"> Facebook</a>
+        <a href="https://messenger.com/t/61595840954350" target="_blank" rel="noopener noreferrer"> Nous contacter</a>
+        <a href="#" data-user="richard.crothers56" data-domain="gmail.com" onclick="ouvrirMail(this); return false;"> Devenir partenaires</a>
+    </div>
+</div>
+
+<footer> <p>© 2026 Celtic Road Trip</p> <p>|</p> <p>Mentions légales</p> <p>|</p> <p>Politique de confidentialité</p> <p>|</p> <p>Site créé par Alex.Richard</p> <p>|</p> <p><a href="https://wa.me/33745690935?text=Bonjour Alex, je te contacte depuis le site Celtic Road Trip..." target="_blank" rel="noopener noreferrer">Contacter le créateur</a></p>
+</footer>
+
+<script>
+function ouvrirMail(element) {
+  var user = element.getAttribute('data-user');
+  var domain = element.getAttribute('data-domain');
+  window.location.href = 'mailto:' + user + '@' + domain;
+}
+</script>
+
 </body>
 </html>

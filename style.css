@@ -222,34 +222,7 @@ footer a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Lorsque la fenêtre fait moins de 768px de large */
+/* Lorsque la fenêtre fait moins de 668px de large */
 @media (max-width: 668px) {
   header {
     flex-direction: column; /* Empile l'image au-dessus du texte */
